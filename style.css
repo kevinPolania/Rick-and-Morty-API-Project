@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    text-align: center;
+    margin: 10px;
+    background: rgb(174,238,174);
+    background: radial-gradient(circle, rgba(174,238,174,1) 0%, rgba(2,140,36,1) 100%);
+
+}
+
+#cardImage{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 30px 10px;
+    
+}
